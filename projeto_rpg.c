@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include "Manual.h"
+#include "manual.h"
 
 int main(void){
     setlocale(LC_ALL,"portuguese");
