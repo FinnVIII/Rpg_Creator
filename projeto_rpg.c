@@ -92,5 +92,511 @@ char Artesao_neg[19][MAX_CARACTERES]={{"Alquimistas e boticários"},{"Armeiros, c
                                         {"Ferreiros e forjadores"},{"Funileiros, latoeiros e galheteiros"},{"Fabricantes de carroças e fabricantes de rodas"},
                                         {"Tecelões e tintureiros"},{"Entalhadores, tanoeiros e construtores de arcos"}};
 
+/// - Antecedente de Artista -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Charlatão -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Criminoso -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Eremita -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Forasteiro -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Herói do Povo -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Marinheiro -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Nobre -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Órfão -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Sábio -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+/// - Antecedente de Soldado -
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
+char SEI_LA[7][MAX_CARACTERES]={{""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""},
+                                {""}};
+
 
 };

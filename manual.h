@@ -19,8 +19,8 @@ char Nomes_F[NUM_PALAVRAS][MAX_CARACTERES]={{"Winnie"},{"Hannah"},{"Aradia"},
 
 
 char antecedente[12][MAX_CARACTERES]={{"Acólito"},{"Artesão da Guilda"},{"Artista"},
-                                          {"Charlatão"},{"Crimisono"},{"Eremita"},
-                                          {"Forasteiro"},{"Héroi do Povo"},{"Marinheiro"},
+                                          {"Charlatão"},{"Criminoso"},{"Eremita"},
+                                          {"Forasteiro"},{"Herói do Povo"},{"Marinheiro"},
                                           {"Nobre"},{"Órfão"},{"Sábio"},
                                           {"Soldado"}};
 
