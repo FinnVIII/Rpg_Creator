@@ -8,6 +8,16 @@
     #define QTD_NOMES_M 6
     #define QTD_NOMES_F 7
     #define QTD_ANTECEDENTE 13
+
+    
+    struct Antecedentes {
+        char *nome;
+        char personalidade[9][255];
+        char ideal[7][255];
+        char vinculo[7][255];
+        char defeito[7][255];
+        char tabela_extra[21][255];
+    }; 
    
 
 
@@ -26,5 +36,6 @@
                                           {"Forasteiro"},{"Herói do Povo"},{"Marinheiro"},
                                           {"Nobre"},{"Órfão"},{"Sábio"},
                                           {"Soldado"}};
+
 
 #endif // MANUAL_H_INCLUDED
