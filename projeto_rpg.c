@@ -63,64 +63,64 @@ int main(void){
    artesao.nome = "Artesão da Guilda";
    artesao.personalidade =
    {
-      {"Eu acredito que tudo que valha a pena fazer, vale a pena ser feito direito. Eu não posso evitar – Eu sou perfeccionista."},
-      {"Eu sou um esnobe que olha de cima a baixo aqueles que não sabem apreciar artes requintadas."},
-      {"Eu sempre quero aprender como as coisas funcionam e o que deixa as pessoas motivadas."},
-      {"Eu sou cheio de aforismos espirituosos e tenho um proverbio para cada ocasião."},
-      {"Eu sou grosso com as pessoas que não tem o mesmo comprometimento que eu com o trabalho duro e honesto."},
-      {"Eu gosto de falar longamente sobre minha profissão."},
-      {"Eu não gasto meu dinheiro facilmente e vou barganhar incansavelmente para conseguir o melhor acordo possível."},
-      {"Eu sou bem conhecido pelo meu trabalho e quero ter certeza que todos o apreciam. Eu sempre fico surpreso quando conheço pessoas que não ouviram falar de mim."}
+   {"Eu acredito que tudo que valha a pena fazer, vale a pena ser feito direito. Eu não posso evitar – Eu sou perfeccionista."},
+   {"Eu sou um esnobe que olha de cima a baixo aqueles que não sabem apreciar artes requintadas."},
+   {"Eu sempre quero aprender como as coisas funcionam e o que deixa as pessoas motivadas."},
+   {"Eu sou cheio de aforismos espirituosos e tenho um proverbio para cada ocasião."},
+   {"Eu sou grosso com as pessoas que não tem o mesmo comprometimento que eu com o trabalho duro e honesto."},
+   {"Eu gosto de falar longamente sobre minha profissão."},
+   {"Eu não gasto meu dinheiro facilmente e vou barganhar incansavelmente para conseguir o melhor acordo possível."},
+   {"Eu sou bem conhecido pelo meu trabalho e quero ter certeza que todos o apreciam. Eu sempre fico surpreso quando conheço pessoas que não ouviram falar de mim."}
    };
    artesao.ideal =
    {
-      {"É dever de todo cidadão civilizado fortalecer os elos da comunidade e a segurança da civilização. (Leal)"},
-      {"Meus talentos me foram dados para que eu pudesse usá-los para beneficiar o mundo. (Bom)"},
-      {"Todos deveriam ser livres para perseguir seus próprios meios de vida. (Caótico)"},
-      {"Eu só estou aqui pelo dinheiro. (Mau)"},
-      {"Eu sou cometido com o povo com quem me importo, não com ideias. (Neutro)"},
-      {"Eu trabalho duro para ser o melhor no meu ofício. (Qualquer)"}
+   {"É dever de todo cidadão civilizado fortalecer os elos da comunidade e a segurança da civilização. (Leal)"},
+   {"Meus talentos me foram dados para que eu pudesse usá-los para beneficiar o mundo. (Bom)"},
+   {"Todos deveriam ser livres para perseguir seus próprios meios de vida. (Caótico)"},
+   {"Eu só estou aqui pelo dinheiro. (Mau)"},
+   {"Eu sou cometido com o povo com quem me importo, não com ideias. (Neutro)"},
+   {"Eu trabalho duro para ser o melhor no meu ofício. (Qualquer)"}
    };
    artesao.vinculo =
    {
-      {"A oficina onde aprendi meu negócio é o local mais importante do mundo pra mim."},
-      {"Eu criei um trabalho incrível para alguém, mas descobri que ele não era merecedor de recebê-lo. Ainda estou à procura de alguém que seja merecedor."},
-      {"Eu tenho uma grande dívida para com minha guilda por fazer de mim a pessoa que sou hoje."},
-      {"Eu busco riqueza para conseguir o amor de alguém."},
-      {"Um dia eu voltarei para a minha guilda e provarei que sou o maior artesão dentre eles."},
-      {"Eu irem me vingar das forças malignas que destruíram meu local de negócios e arruinaram meu estilo de vida."}
+   {"A oficina onde aprendi meu negócio é o local mais importante do mundo pra mim."},
+   {"Eu criei um trabalho incrível para alguém, mas descobri que ele não era merecedor de recebê-lo. Ainda estou à procura de alguém que seja merecedor."},
+   {"Eu tenho uma grande dívida para com minha guilda por fazer de mim a pessoa que sou hoje."},
+   {"Eu busco riqueza para conseguir o amor de alguém."},
+   {"Um dia eu voltarei para a minha guilda e provarei que sou o maior artesão dentre eles."},
+   {"Eu irem me vingar das forças malignas que destruíram meu local de negócios e arruinaram meu estilo de vida."}
    };
    artesao.defeito =
    {
-      {"Eu farei de tudo para pôr minha mãos em algo raro ou inestimável."},
-      {"Eu rapidamente presumo que alguém está tentando me trapacear."},
-      {"Ninguém nunca poderá saber que eu, certa vez, roubei dinheiro dos cofres da guilda."},
-      {"Eu nunca estou satisfeito com o que tenho – eu sempre quero mais."},
-      {"Eu mataria para adquirir um título de nobreza."},
-      {"Eu sou terrivelmente invejoso com qualquer um que possa ofuscar meu ofício. Todo lugar que eu vou, estou cercado de rivais."}
+   {"Eu farei de tudo para pôr minha mãos em algo raro ou inestimável."},
+   {"Eu rapidamente presumo que alguém está tentando me trapacear."},
+   {"Ninguém nunca poderá saber que eu, certa vez, roubei dinheiro dos cofres da guilda."},
+   {"Eu nunca estou satisfeito com o que tenho – eu sempre quero mais."},
+   {"Eu mataria para adquirir um título de nobreza."},
+   {"Eu sou terrivelmente invejoso com qualquer um que possa ofuscar meu ofício. Todo lugar que eu vou, estou cercado de rivais."}
    };
    artesao.tabela_extra =
    {
-      {"Alquimistas e boticários"},
-      {"Armeiros, chaveiros e ferreiros finos"},
-      {"Cervejeiros, destiladores e viticultores"},
-      {"Calígrafos, escribas e escrivães"},
-      {"Carpinteiros, construtores de telhado e estucadores"},
-      {"Cartógrafos, agrimensores e desenhistas"},
-      {"Remendões e sapateiros"},
-      {"Cozinheiros e padeiros"},
-      {"Vidraceiros e escultores"},
-      {"Joalheiros e lapidários"},
-      {"Coureiros, peleiros e curtidores"},
-      {"Pedreiros e marceneiros"},
-      {"Pintores, iluminadores e construtores de placas"},
-      {"Oleiros e telheiros"},
-      {"Armadores e veleiros"},
-      {"Ferreiros e forjadores"},
-      {"Funileiros, latoeiros e galheteiros"},
-      {"Fabricantes de carroças e fabricantes de rodas"},
-      {"Tecelões e tintureiros"},
-      {"Entalhadores, tanoeiros e construtores de arcos"}
+   {"Alquimistas e boticários"},
+   {"Armeiros, chaveiros e ferreiros finos"},
+   {"Cervejeiros, destiladores e viticultores"},
+   {"Calígrafos, escribas e escrivães"},
+   {"Carpinteiros, construtores de telhado e estucadores"},
+   {"Cartógrafos, agrimensores e desenhistas"},
+   {"Remendões e sapateiros"},
+   {"Cozinheiros e padeiros"},
+   {"Vidraceiros e escultores"},
+   {"Joalheiros e lapidários"},
+   {"Coureiros, peleiros e curtidores"},
+   {"Pedreiros e marceneiros"},
+   {"Pintores, iluminadores e construtores de placas"},
+   {"Oleiros e telheiros"},
+   {"Armadores e veleiros"},
+   {"Ferreiros e forjadores"},
+   {"Funileiros, latoeiros e galheteiros"},
+   {"Fabricantes de carroças e fabricantes de rodas"},
+   {"Tecelões e tintureiros"},
+   {"Entalhadores, tanoeiros e construtores de arcos"}
    };
 
 
@@ -165,16 +165,16 @@ int main(void){
    };
    artista.tabela_extra =
    {
-      {"Acrobata"},
-      {"Ator"},
-      {"Bufão"},
-      {"Cantor"},
-      {"Dançarino"},
-      {"Engolidor de fogo"},
-      {"Instrumentista"},
-      {"Malabarista"},
-      {"Narrador"},
-      {"Poeta"}
+   {"Acrobata"},
+   {"Ator"},
+   {"Bufão"},
+   {"Cantor"},
+   {"Dançarino"},
+   {"Engolidor de fogo"},
+   {"Instrumentista"},
+   {"Malabarista"},
+   {"Narrador"},
+   {"Poeta"}
    };
 
    charlatao.nome = "Charlatão";
