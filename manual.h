@@ -9,7 +9,7 @@
     #define QTD_NOMES_F 7
     #define QTD_ANTECEDENTE 13
 
-    
+
     struct Antecedentes {
         char *nome;
         char personalidade[9][255];
@@ -17,20 +17,21 @@
         char vinculo[7][255];
         char defeito[7][255];
         char tabela_extra[21][255];
-    }; 
-   
+    };
+
 
 
 
     char tipos[QTD_TIPOS][MAX_CARACTERES]={{"Bartender"},{"Coureiro"},{"Alquimista"},
-                                              {"Ferreiro"},{"Ourives"},{"Curador"}, {"Aventureiro"}, {"Mercenário"}};
+                                              {"Ferreiro"},{"Ourives"},{"Curador"},
+                                              {"Aventureiro"},{"Mercenário"}};
 
     char Nomes_M[QTD_NOMES_M][MAX_CARACTERES]={{"Ammon"},{"Orgrin"},{"Sir Ebonheart"},
                                                 {"Zhakir"},{"Balthazar"},{"Dragomir"}};
 
     char Nomes_F[QTD_NOMES_F][MAX_CARACTERES]={{"Winnie"},{"Hannah"},{"Aradia"},
-                                                {"Sylvi"},{"Julia"},{"Lidia"}, {"Anna"}};
-    
+              forasteiro                                  {"Sylvi"},{"Julia"},{"Lidia"},{"Anna"}};
+
     char antecedente[QTD_ANTECEDENTE][MAX_CARACTERES]={{"Acólito"},{"Artesão da Guilda"},{"Artista"},
                                           {"Charlatão"},{"Criminoso"},{"Eremita"},
                                           {"Forasteiro"},{"Herói do Povo"},{"Marinheiro"},
