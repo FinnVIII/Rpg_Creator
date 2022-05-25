@@ -17,10 +17,14 @@ int main(void){
       artista, charlatao, criminoso, eremita,
       forasteiro, heroi, marinheiro, nobre,
       orfao, sabio, soldado;
-    /// -- Forma que funciona --
+
+    /// ----- Forma que funciona -----
+
     ///strcpy(nome.variavel[0],"Texto");
     ///strcpy(nome.variavel[1],"Texto");
     ///strcpy(nome.variavel[2],"Texto");
+
+    ///---------------------------------
 
    acolito.nome = "Acólito";
    acolito.personalidade =
