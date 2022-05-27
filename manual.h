@@ -8,6 +8,8 @@
 #define QTD_NOMES_M 6
 #define QTD_NOMES_F 7
 #define QTD_ANTECEDENTE 13
+#define QTD_IDEAIS 6 ///Define o random pra ideais, vinculos e defeitos
+#define QTD_PERSONALIDADE 8
 
 
     char tipos[QTD_TIPOS][MAX_CARACTERES]={{"Bartender"},{"Coureiro"},{"Alquimista"},

@@ -1,6 +1,6 @@
 #ifndef ANTECEDENTE_H_INCLUDED
 #define ANTECEDENTE_H_INCLUDED
-
+#include "manual.h"
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -532,19 +532,20 @@ void FICHA(){
 
     int rand_tipo, rand_nomes_m, rand_nomes_f, rand_antecedente;
     int antec_pers=0, antec_ideal=0, antec_vinc=0, antec_defe=0, antec_tabe=0;
-    int escolha_antec = 0, escolha_sexo = 0, escolha_nome = 0;
+    int escolha_antec = 0, escolha_sexo = 0, escolha_nomeM = 0,escolha_nomeF = 0;
     char escolha_sex_tipo[100];
     time_t t;
 
     srand((unsigned) time(&t));
     antecedentes_lista();
 
-    antec_pers = rand() % 8;
-    antec_ideal = rand() % 6;
-    antec_vinc = rand() % 6;
-    antec_defe = rand() % 6;
-    escolha_nome = rand() % 5;
-    escolha_antec = rand() % 13;
+    antec_pers = rand() % QTD_PERSONALIDADE;
+    antec_ideal = rand() % QTD_IDEAIS;
+    antec_vinc = rand() % QTD_IDEAIS;
+    antec_defe = rand() % QTD_IDEAIS;
+    escolha_nomeM = rand() % QTD_NOMES_M;
+    escolha_nomeF = rand() % QTD_NOMES_F;
+    escolha_antec = rand() % QTD_ANTECEDENTE;
     escolha_sexo = rand() % 2;
 
     if(antec_pers<1){
@@ -565,10 +566,10 @@ void FICHA(){
 
     printf("___________ FICHA DE PERSONAGEM ___________\n\n",escolha_sexo);
     if(escolha_sexo == 0){
-            printf("Nome: %s \n",Nomes_M[escolha_nome]);
+            printf("Nome: %s \n",Nomes_M[escolha_nomeM]);
         }
     else if(escolha_sexo == 1){
-            printf("Nome: %s \n",Nomes_F[escolha_nome]);
+            printf("Nome: %s \n",Nomes_F[escolha_nomeF]);
         }
     /// acolito
     if(antecedente[escolha_antec] == antecedente[0]){
