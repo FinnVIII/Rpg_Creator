@@ -5,6 +5,7 @@
 #include "manual.h"
 #include "antecedente.h"
 
+//DEU CERTO CACILDA
 
 int main(void){
    setlocale(LC_ALL,"portuguese");
