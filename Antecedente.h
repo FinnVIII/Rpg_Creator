@@ -103,14 +103,14 @@ void antecedentes_lista(){
     strcpy(artesao.tabela_extra[19],"Entalhadores, tanoeiros e construtores de arcos");
 
     artista.nome = "Artista";
-    strcpy(artista.vinculo[0],"Eu conheço uma história relevante de praticamente todas as situações.");
-    strcpy(artista.vinculo[1],"Sempre que eu chego em um lugar novo, eu coleto os rumores locais e espalho fofocas.");
-    strcpy(artista.vinculo[2],"Eu sou um romântico incorrigível, sempre em busca daquele “alguém especial.”");
-    strcpy(artista.vinculo[3],"Ninguém fica com raiva de mim ou perto de mim por muito tempo, já que eu posso acabar com qualquer tipo de tensão.");
-    strcpy(artista.vinculo[4],"Eu amo um bom insulto, até os direcionados a mim.");
-    strcpy(artista.vinculo[5],"Eu fico sentido se eu não for o centro das atenções.");
-    strcpy(artista.vinculo[6],"Eu não vou me contentar com nada menos que a perfeição.");
-    strcpy(artista.vinculo[7],"Eu mudo de ânimo ou de pensamento tão rápido quando mudo eu mudo de nota em uma canção.");
+    strcpy(artista.personalidade[0],"Eu conheço uma história relevante de praticamente todas as situações.");
+    strcpy(artista.personalidade[1],"Sempre que eu chego em um lugar novo, eu coleto os rumores locais e espalho fofocas.");
+    strcpy(artista.personalidade[2],"Eu sou um romântico incorrigível, sempre em busca daquele “alguém especial.”");
+    strcpy(artista.personalidade[3],"Ninguém fica com raiva de mim ou perto de mim por muito tempo, já que eu posso acabar com qualquer tipo de tensão.");
+    strcpy(artista.personalidade[4],"Eu amo um bom insulto, até os direcionados a mim.");
+    strcpy(artista.personalidade[5],"Eu fico sentido se eu não for o centro das atenções.");
+    strcpy(artista.personalidade[6],"Eu não vou me contentar com nada menos que a perfeição.");
+    strcpy(artista.personalidade[7],"Eu mudo de ânimo ou de pensamento tão rápido quando mudo eu mudo de nota em uma canção.");
 
     strcpy(artista.ideal[0],"Quando eu atuo, eu torno o mundo um lugar melhor. (Bom)");
     strcpy(artista.ideal[1],"As histórias, lendas e canções do passado nunca devem ser esquecidas, pois elas nos ensinam quem nós somos. (Leal)");
@@ -521,4 +521,211 @@ void antecedentes_lista(){
 
 }
 
+void FICHA(){
+
+    char antecedente[QTD_ANTECEDENTE][MAX_CARACTERES]={{"Acólito"},{"Artesão da Guilda"},{"Artista"},
+                                          {"Charlatão"},{"Criminoso"},{"Eremita"},
+                                          {"Forasteiro"},{"Herói do Povo"},{"Marinheiro"},
+                                          {"Nobre"},{"Órfão"},{"Sábio"},
+                                          {"Soldado"}};
+
+
+    int rand_tipo, rand_nomes_m, rand_nomes_f, rand_antecedente;
+    int antec_pers=0, antec_ideal=0, antec_vinc=0, antec_defe=0, antec_tabe=0;
+    int escolha_antec = 0, escolha_sexo = 0, escolha_nome = 0;
+    char escolha_sex_tipo[100];
+    time_t t;
+
+    srand((unsigned) time(&t));
+    antecedentes_lista();
+
+    antec_pers = rand() % 8;
+    antec_ideal = rand() % 6;
+    antec_vinc = rand() % 6;
+    antec_defe = rand() % 6;
+    escolha_nome = rand() % 5;
+    escolha_antec = rand() % 13;
+    escolha_sexo = rand() % 2;
+
+    if(antec_pers<1){
+        antec_pers++;
+    }
+
+    if(antec_ideal<1){
+        antec_ideal++;
+    }
+
+    if(antec_vinc<1){
+        antec_vinc++;
+    }
+
+    if(antec_defe<1){
+        antec_defe++;
+    }
+
+    printf("___________ FICHA DE PERSONAGEM ___________\n\n",escolha_sexo);
+    if(escolha_sexo == 0){
+            printf("Nome: %s \n",Nomes_M[escolha_nome]);
+        }
+    else if(escolha_sexo == 1){
+            printf("Nome: %s \n",Nomes_F[escolha_nome]);
+        }
+    /// acolito
+    if(antecedente[escolha_antec] == antecedente[0]){
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", acolito.personalidade[antec_pers]);
+            printf("ideal: %s \n", acolito.ideal[antec_ideal]);
+            printf("vinculo: %s \n", acolito.vinculo[antec_vinc]);
+            printf("defeito: %s \n", acolito.defeito[antec_defe]);
+        }
+    /// artesao
+    if(antecedente[escolha_antec] == antecedente[1]){
+        antec_tabe = rand() % 20;
+        if(antec_tabe<1){
+            antec_tabe++;
+        }
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", artesao.personalidade[antec_pers]);
+            printf("ideal: %s \n", artesao.ideal[antec_ideal]);
+            printf("vinculo: %s \n", artesao.vinculo[antec_vinc]);
+            printf("defeito: %s \n", artesao.defeito[antec_defe]);
+            printf("Tabela extra: %s \n", artesao.tabela_extra[antec_tabe]);
+        }
+    /// artista
+    if(antecedente[escolha_antec] == antecedente[2]){
+        antec_tabe = rand() % 10;
+        if(antec_tabe<1){
+            antec_tabe++;
+        }
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", artista.personalidade[antec_pers]);
+            printf("ideal: %s \n", artista.ideal[antec_ideal]);
+            printf("vinculo: %s \n", artista.vinculo[antec_vinc]);
+            printf("defeito: %s \n", artista.defeito[antec_defe]);
+            printf("tabela_extra: %s \n", artista.tabela_extra[antec_tabe]);
+        }
+    /// charlatao
+    if(antecedente[escolha_antec] == antecedente[3]){
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", charlatao.personalidade[antec_pers]);
+            printf("ideal: %s \n", charlatao.ideal[antec_ideal]);
+            printf("vinculo: %s \n", charlatao.vinculo[antec_vinc]);
+            printf("defeito: %s \n", charlatao.defeito[antec_defe]);
+        }
+    /// criminoso
+    if(antecedente[escolha_antec] == antecedente[4]){
+        antec_tabe = rand() % 8;
+        if(antec_tabe<1){
+            antec_tabe++;
+        }
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", criminoso.personalidade[antec_pers]);
+            printf("ideal: %s \n", criminoso.ideal[antec_ideal]);
+            printf("vinculo: %s \n", criminoso.vinculo[antec_vinc]);
+            printf("defeito: %s \n", criminoso.defeito[antec_defe]);
+            printf("tabela_extra: %s \n", criminoso.tabela_extra[antec_tabe]);
+        }
+    /// eremita
+    if(antecedente[escolha_antec] == antecedente[5]){
+        antec_tabe = rand() % 8;
+        if(antec_tabe<1){
+            antec_tabe++;
+        }
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", eremita.personalidade[antec_pers]);
+            printf("ideal: %s \n", eremita.ideal[antec_ideal]);
+            printf("vinculo: %s \n", eremita.vinculo[antec_vinc]);
+            printf("defeito: %s \n", eremita.defeito[antec_defe]);
+            printf("tabela_extra: %s \n", eremita.tabela_extra[antec_tabe]);
+        }
+    /// forasteiro
+    if(antecedente[escolha_antec] == antecedente[6]){
+        antec_tabe = rand() % 10;
+        if(antec_tabe<1){
+            antec_tabe++;
+        }
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", forasteiro.personalidade[antec_pers]);
+            printf("ideal: %s \n", forasteiro.ideal[antec_ideal]);
+            printf("vinculo: %s \n", forasteiro.vinculo[antec_vinc]);
+            printf("defeito: %s \n", forasteiro.defeito[antec_defe]);
+            printf("tabela_extra: %s \n", forasteiro.tabela_extra[antec_tabe]);
+        }
+    /// heroi
+    if(antecedente[escolha_antec] == antecedente[7]){
+        antec_tabe = rand() % 10;
+        if(antec_tabe<1){
+            antec_tabe++;
+        }
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", heroi.personalidade[antec_pers]);
+            printf("ideal: %s \n", heroi.ideal[antec_ideal]);
+            printf("vinculo: %s \n", heroi.vinculo[antec_vinc]);
+            printf("defeito: %s \n", heroi.defeito[antec_defe]);
+            printf("tabela_extra: %s \n", heroi.tabela_extra[antec_tabe]);
+        }
+    /// marinheiro
+    if(antecedente[escolha_antec] == antecedente[8]){
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", marinheiro.personalidade[antec_pers]);
+            printf("ideal: %s \n", marinheiro.ideal[antec_ideal]);
+            printf("vinculo: %s \n", marinheiro.vinculo[antec_vinc]);
+            printf("defeito: %s \n", marinheiro.defeito[antec_defe]);
+        }
+    /// nobre
+    if(antecedente[escolha_antec] == antecedente[9]){
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", nobre.personalidade[antec_pers]);
+            printf("ideal: %s \n", nobre.ideal[antec_ideal]);
+            printf("vinculo: %s \n", nobre.vinculo[antec_vinc]);
+            printf("defeito: %s \n", nobre.defeito[antec_defe]);
+        }
+    /// orfao
+    if(antecedente[escolha_antec] == antecedente[10]){
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", orfao.personalidade[antec_pers]);
+            printf("ideal: %s \n", orfao.ideal[antec_ideal]);
+            printf("vinculo: %s \n", orfao.vinculo[antec_vinc]);
+            printf("defeito: %s \n", orfao.defeito[antec_defe]);
+        }
+    /// sabio
+    if(antecedente[escolha_antec] == antecedente[11]){
+        antec_tabe = rand() % 8;
+        if(antec_tabe<1){
+            antec_tabe++;
+        }
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", sabio.personalidade[antec_pers]);
+            printf("ideal: %s \n", sabio.ideal[antec_ideal]);
+            printf("vinculo: %s \n", sabio.vinculo[antec_vinc]);
+            printf("defeito: %s \n", sabio.defeito[antec_defe]);
+            printf("tabela_extra: %s \n", sabio.tabela_extra[antec_tabe]);
+        }
+    /// soldado
+    if(antecedente[escolha_antec] == antecedente[12]){
+        antec_tabe = rand() % 8;
+        if(antec_tabe<1){
+            antec_tabe++;
+        }
+            printf("Sexo: %s \n", Sexo[escolha_sexo]);
+            printf("Tipo: %s \n", antecedente[escolha_antec]);
+            printf("Personalidade: %s \n", soldado.personalidade[antec_pers]);
+            printf("ideal: %s \n", soldado.ideal[antec_ideal]);
+            printf("vinculo: %s \n", soldado.vinculo[antec_vinc]);
+            printf("defeito: %s \n", soldado.defeito[antec_defe]);
+            printf("tabela_extra: %s \n", soldado.tabela_extra[antec_tabe]);
+        }
+}
 #endif // ANTECEDENTE_H_INCLUDED
