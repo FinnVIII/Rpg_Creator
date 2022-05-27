@@ -72,11 +72,14 @@ void selecao(int x, int y, int tecla){
 			SetConsoleTextAttribute(colors,15);gotoxy(44,19);printf("Mercado");
 		}
 		if(y==21){
-			SetConsoleTextAttribute(colors,3);gotoxy(44,21);printf("Fechar");
+			SetConsoleTextAttribute(colors,3);gotoxy(44,21);printf("Fechar");SetConsoleTextAttribute(colors,15);
 		}else{
 			SetConsoleTextAttribute(colors,15);gotoxy(44,21);printf("Fechar");
 		}
 
 	}
-
+    if(y==21 && tecla==13){
+            printf("a");
+            return(0);
+		}
 }
