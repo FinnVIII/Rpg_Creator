@@ -14,7 +14,7 @@ int main(void){
     int escolha_antec = 0, escolha_sexo = 0, escolha_nome = 0;
     char escolha_sex_tipo[100];
     time_t t;
-    “““““““
+
     FICHA();
 
 }
